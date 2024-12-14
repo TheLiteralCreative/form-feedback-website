@@ -1,4 +1,7 @@
+"use client";
+
 import React from 'react';
+import FormBuilder from '@/components/form-builder/FormBuilder';
 
 export default function HomePage() {
   return (
@@ -8,9 +11,11 @@ export default function HomePage() {
           <h1 className="text-3xl font-bold text-gray-900">
             Form Feedback
           </h1>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-gray-600 mb-8">
             Create and manage your forms with ease
           </p>
+          
+          <FormBuilder />
         </div>
       </main>
     </div>
